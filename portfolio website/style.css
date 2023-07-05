@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: darkgrey;
+    width: 30vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 110vh;
+}
+
+.sidebar nav{
+    padding: 10px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.main{
+    background-color: aqua;
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    background-color: cornsilk;
+    height: 40vh;
+    width: 70vw;
+    margin: 5px auto;
+    display: flex;
+}
